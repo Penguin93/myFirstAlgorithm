@@ -4,18 +4,20 @@
 #print (totalcost)
 
 #------------------------------------------------
-
+#calculateTotal
 def add(foodprice1,foodprice2):
     answer=foodprice1+foodprice2
     return answer
 
-result=add(15,13)
+result=add(3,7)
 print(result)
 
 #------------------------------------------------
-
-if result>10:
+#applyDiscount
+if result>=10:
     answer=result*0.9
 else:
     answer=result
 print(answer)
+
+#------------------------------------------------
