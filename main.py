@@ -5,14 +5,15 @@
 
 #------------------------------------------------
 #calculateTotal
-
-def add(foodprice1,foodprice2):
-    foodprice1 = input('First choice')
-    foodprice2 = input('Second choice')
-    answer=foodprice1+foodprice2
-    return answer
-
-result=float()
+foodprice1 = input("First choice ")
+foodprice2 = input("Second choice ")
+a = float(foodprice1)
+b = float(foodprice2)
+def add(a, b):
+    result = a + b
+    return result
+total = add(a, b)
+result = float(total)
 #print(result)
 
 #------------------------------------------------
